@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-SwiftyRMLibExamples/Pods-SwiftyRMLibExamples-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/SwiftyRMLib/SwiftyRMLib.framework

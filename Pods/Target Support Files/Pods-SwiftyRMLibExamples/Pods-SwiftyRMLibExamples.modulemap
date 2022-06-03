@@ -1,0 +1,6 @@
+framework module Pods_SwiftyRMLibExamples {
+  umbrella header "Pods-SwiftyRMLibExamples-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -11,6 +11,16 @@
 		25BBBB332847C5AF008FEFD6 /* SwiftyRMLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BBBB282847C5AE008FEFD6 /* SwiftyRMLib.framework */; };
 		25BBBB382847C5AF008FEFD6 /* SwiftyRMLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BBBB372847C5AF008FEFD6 /* SwiftyRMLibTests.swift */; };
 		25BBBB392847C5AF008FEFD6 /* SwiftyRMLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 25BBBB2B2847C5AE008FEFD6 /* SwiftyRMLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25BBBB772847E718008FEFD6 /* SwiftyRMLibCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BBBB762847E718008FEFD6 /* SwiftyRMLibCall.swift */; };
+		25BBBB7F28481713008FEFD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BBBB7E28481713008FEFD6 /* AppDelegate.swift */; };
+		25BBBB8128481713008FEFD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BBBB8028481713008FEFD6 /* SceneDelegate.swift */; };
+		25BBBB8328481713008FEFD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BBBB8228481713008FEFD6 /* ViewController.swift */; };
+		25BBBB8628481713008FEFD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BBBB8428481713008FEFD6 /* Main.storyboard */; };
+		25BBBB8828481715008FEFD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25BBBB8728481715008FEFD6 /* Assets.xcassets */; };
+		25BBBB8B28481715008FEFD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BBBB8928481715008FEFD6 /* LaunchScreen.storyboard */; };
+		25BBBBAD2848658D008FEFD6 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BBBBAC2848658D008FEFD6 /* Network.swift */; };
+		780FD473CC902D787130BEBD /* Pods_SwiftyRMLibExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18213D37499246B7ADC8A91E /* Pods_SwiftyRMLibExamples.framework */; };
+		AD84C5AA9826B5A78D7FA1C8 /* Pods_SwiftyRMLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C0B314021C396ED91F7964 /* Pods_SwiftyRMLib.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,14 +31,46 @@
 			remoteGlobalIDString = 25BBBB272847C5AE008FEFD6;
 			remoteInfo = SwiftyRMLib;
 		};
+		25BBBB9228481715008FEFD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25BBBB1F2847C5AE008FEFD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25BBBB7B28481713008FEFD6;
+			remoteInfo = SwiftyRMLibExamples;
+		};
+		25BBBB9C28481715008FEFD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25BBBB1F2847C5AE008FEFD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25BBBB7B28481713008FEFD6;
+			remoteInfo = SwiftyRMLibExamples;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18213D37499246B7ADC8A91E /* Pods_SwiftyRMLibExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyRMLibExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25BBBB282847C5AE008FEFD6 /* SwiftyRMLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyRMLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25BBBB2B2847C5AE008FEFD6 /* SwiftyRMLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyRMLib.h; sourceTree = "<group>"; };
 		25BBBB2C2847C5AE008FEFD6 /* SwiftyRMLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftyRMLib.docc; sourceTree = "<group>"; };
 		25BBBB322847C5AF008FEFD6 /* SwiftyRMLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyRMLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25BBBB372847C5AF008FEFD6 /* SwiftyRMLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyRMLibTests.swift; sourceTree = "<group>"; };
+		25BBBB762847E718008FEFD6 /* SwiftyRMLibCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyRMLibCall.swift; sourceTree = "<group>"; };
+		25BBBB7C28481713008FEFD6 /* SwiftyRMLibExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyRMLibExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BBBB7E28481713008FEFD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25BBBB8028481713008FEFD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		25BBBB8228481713008FEFD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25BBBB8528481713008FEFD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25BBBB8728481715008FEFD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25BBBB8A28481715008FEFD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25BBBB8C28481715008FEFD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25BBBB9128481715008FEFD6 /* SwiftyRMLibExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyRMLibExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BBBB9B28481715008FEFD6 /* SwiftyRMLibExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyRMLibExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BBBBAC2848658D008FEFD6 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		3E89FED8D430C09971F8AEDB /* Pods-SwiftyRMLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyRMLib.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyRMLib/Pods-SwiftyRMLib.debug.xcconfig"; sourceTree = "<group>"; };
+		55C0B314021C396ED91F7964 /* Pods_SwiftyRMLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyRMLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C183294AC063335F59D114FC /* Pods-SwiftyRMLibExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyRMLibExamples.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyRMLibExamples/Pods-SwiftyRMLibExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		C8DB854BE137AB15E8AAC6C2 /* Pods-SwiftyRMLibExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyRMLibExamples.release.xcconfig"; path = "Target Support Files/Pods-SwiftyRMLibExamples/Pods-SwiftyRMLibExamples.release.xcconfig"; sourceTree = "<group>"; };
+		F7A3B85380494CBC771328A1 /* Pods-SwiftyRMLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyRMLib.release.xcconfig"; path = "Target Support Files/Pods-SwiftyRMLib/Pods-SwiftyRMLib.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD84C5AA9826B5A78D7FA1C8 /* Pods_SwiftyRMLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +90,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		25BBBB7928481713008FEFD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780FD473CC902D787130BEBD /* Pods_SwiftyRMLibExamples.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BBBB8E28481715008FEFD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BBBB9828481715008FEFD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,7 +120,10 @@
 			children = (
 				25BBBB2A2847C5AE008FEFD6 /* SwiftyRMLib */,
 				25BBBB362847C5AF008FEFD6 /* SwiftyRMLibTests */,
+				25BBBB7D28481713008FEFD6 /* SwiftyRMLibExamples */,
 				25BBBB292847C5AE008FEFD6 /* Products */,
+				D10C153E104152CC919F1CD9 /* Pods */,
+				E7962D1AB76FC6D4FF5EC0D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +132,9 @@
 			children = (
 				25BBBB282847C5AE008FEFD6 /* SwiftyRMLib.framework */,
 				25BBBB322847C5AF008FEFD6 /* SwiftyRMLibTests.xctest */,
+				25BBBB7C28481713008FEFD6 /* SwiftyRMLibExamples.app */,
+				25BBBB9128481715008FEFD6 /* SwiftyRMLibExamplesTests.xctest */,
+				25BBBB9B28481715008FEFD6 /* SwiftyRMLibExamplesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +144,7 @@
 			children = (
 				25BBBB2B2847C5AE008FEFD6 /* SwiftyRMLib.h */,
 				25BBBB2C2847C5AE008FEFD6 /* SwiftyRMLib.docc */,
+				25BBBB762847E718008FEFD6 /* SwiftyRMLibCall.swift */,
 			);
 			path = SwiftyRMLib;
 			sourceTree = "<group>";
@@ -83,6 +155,41 @@
 				25BBBB372847C5AF008FEFD6 /* SwiftyRMLibTests.swift */,
 			);
 			path = SwiftyRMLibTests;
+			sourceTree = "<group>";
+		};
+		25BBBB7D28481713008FEFD6 /* SwiftyRMLibExamples */ = {
+			isa = PBXGroup;
+			children = (
+				25BBBB7E28481713008FEFD6 /* AppDelegate.swift */,
+				25BBBB8028481713008FEFD6 /* SceneDelegate.swift */,
+				25BBBB8228481713008FEFD6 /* ViewController.swift */,
+				25BBBB8428481713008FEFD6 /* Main.storyboard */,
+				25BBBB8728481715008FEFD6 /* Assets.xcassets */,
+				25BBBB8928481715008FEFD6 /* LaunchScreen.storyboard */,
+				25BBBB8C28481715008FEFD6 /* Info.plist */,
+				25BBBBAC2848658D008FEFD6 /* Network.swift */,
+			);
+			path = SwiftyRMLibExamples;
+			sourceTree = "<group>";
+		};
+		D10C153E104152CC919F1CD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C183294AC063335F59D114FC /* Pods-SwiftyRMLibExamples.debug.xcconfig */,
+				C8DB854BE137AB15E8AAC6C2 /* Pods-SwiftyRMLibExamples.release.xcconfig */,
+				3E89FED8D430C09971F8AEDB /* Pods-SwiftyRMLib.debug.xcconfig */,
+				F7A3B85380494CBC771328A1 /* Pods-SwiftyRMLib.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E7962D1AB76FC6D4FF5EC0D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18213D37499246B7ADC8A91E /* Pods_SwiftyRMLibExamples.framework */,
+				55C0B314021C396ED91F7964 /* Pods_SwiftyRMLib.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25BBBB3C2847C5AF008FEFD6 /* Build configuration list for PBXNativeTarget "SwiftyRMLib" */;
 			buildPhases = (
+				4CA1355D5D6F50E353048387 /* [CP] Check Pods Manifest.lock */,
 				25BBBB232847C5AE008FEFD6 /* Headers */,
 				25BBBB242847C5AE008FEFD6 /* Sources */,
 				25BBBB252847C5AE008FEFD6 /* Frameworks */,
@@ -135,6 +243,61 @@
 			productReference = 25BBBB322847C5AF008FEFD6 /* SwiftyRMLibTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		25BBBB7B28481713008FEFD6 /* SwiftyRMLibExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25BBBBA928481715008FEFD6 /* Build configuration list for PBXNativeTarget "SwiftyRMLibExamples" */;
+			buildPhases = (
+				735A414C8EFA38ADCF11C79B /* [CP] Check Pods Manifest.lock */,
+				25BBBB7828481713008FEFD6 /* Sources */,
+				25BBBB7928481713008FEFD6 /* Frameworks */,
+				25BBBB7A28481713008FEFD6 /* Resources */,
+				CA278B794060DEF19B635658 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyRMLibExamples;
+			productName = SwiftyRMLibExamples;
+			productReference = 25BBBB7C28481713008FEFD6 /* SwiftyRMLibExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25BBBB9028481715008FEFD6 /* SwiftyRMLibExamplesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25BBBBAA28481715008FEFD6 /* Build configuration list for PBXNativeTarget "SwiftyRMLibExamplesTests" */;
+			buildPhases = (
+				25BBBB8D28481715008FEFD6 /* Sources */,
+				25BBBB8E28481715008FEFD6 /* Frameworks */,
+				25BBBB8F28481715008FEFD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25BBBB9328481715008FEFD6 /* PBXTargetDependency */,
+			);
+			name = SwiftyRMLibExamplesTests;
+			productName = SwiftyRMLibExamplesTests;
+			productReference = 25BBBB9128481715008FEFD6 /* SwiftyRMLibExamplesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25BBBB9A28481715008FEFD6 /* SwiftyRMLibExamplesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25BBBBAB28481715008FEFD6 /* Build configuration list for PBXNativeTarget "SwiftyRMLibExamplesUITests" */;
+			buildPhases = (
+				25BBBB9728481715008FEFD6 /* Sources */,
+				25BBBB9828481715008FEFD6 /* Frameworks */,
+				25BBBB9928481715008FEFD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25BBBB9D28481715008FEFD6 /* PBXTargetDependency */,
+			);
+			name = SwiftyRMLibExamplesUITests;
+			productName = SwiftyRMLibExamplesUITests;
+			productReference = 25BBBB9B28481715008FEFD6 /* SwiftyRMLibExamplesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -150,6 +313,17 @@
 					};
 					25BBBB312847C5AF008FEFD6 = {
 						CreatedOnToolsVersion = 13.4;
+					};
+					25BBBB7B28481713008FEFD6 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					25BBBB9028481715008FEFD6 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 25BBBB7B28481713008FEFD6;
+					};
+					25BBBB9A28481715008FEFD6 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 25BBBB7B28481713008FEFD6;
 					};
 				};
 			};
@@ -168,6 +342,9 @@
 			targets = (
 				25BBBB272847C5AE008FEFD6 /* SwiftyRMLib */,
 				25BBBB312847C5AF008FEFD6 /* SwiftyRMLibTests */,
+				25BBBB7B28481713008FEFD6 /* SwiftyRMLibExamples */,
+				25BBBB9028481715008FEFD6 /* SwiftyRMLibExamplesTests */,
+				25BBBB9A28481715008FEFD6 /* SwiftyRMLibExamplesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -187,13 +364,102 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		25BBBB7A28481713008FEFD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BBBB8B28481715008FEFD6 /* LaunchScreen.storyboard in Resources */,
+				25BBBB8828481715008FEFD6 /* Assets.xcassets in Resources */,
+				25BBBB8628481713008FEFD6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BBBB8F28481715008FEFD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BBBB9928481715008FEFD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CA1355D5D6F50E353048387 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftyRMLib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		735A414C8EFA38ADCF11C79B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftyRMLibExamples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA278B794060DEF19B635658 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftyRMLibExamples/Pods-SwiftyRMLibExamples-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftyRMLibExamples/Pods-SwiftyRMLibExamples-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftyRMLibExamples/Pods-SwiftyRMLibExamples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		25BBBB242847C5AE008FEFD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25BBBB772847E718008FEFD6 /* SwiftyRMLibCall.swift in Sources */,
 				25BBBB2D2847C5AE008FEFD6 /* SwiftyRMLib.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,6 +472,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		25BBBB7828481713008FEFD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BBBB8328481713008FEFD6 /* ViewController.swift in Sources */,
+				25BBBB7F28481713008FEFD6 /* AppDelegate.swift in Sources */,
+				25BBBBAD2848658D008FEFD6 /* Network.swift in Sources */,
+				25BBBB8128481713008FEFD6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BBBB8D28481715008FEFD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BBBB9728481715008FEFD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -214,7 +505,36 @@
 			target = 25BBBB272847C5AE008FEFD6 /* SwiftyRMLib */;
 			targetProxy = 25BBBB342847C5AF008FEFD6 /* PBXContainerItemProxy */;
 		};
+		25BBBB9328481715008FEFD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25BBBB7B28481713008FEFD6 /* SwiftyRMLibExamples */;
+			targetProxy = 25BBBB9228481715008FEFD6 /* PBXContainerItemProxy */;
+		};
+		25BBBB9D28481715008FEFD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25BBBB7B28481713008FEFD6 /* SwiftyRMLibExamples */;
+			targetProxy = 25BBBB9C28481715008FEFD6 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25BBBB8428481713008FEFD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25BBBB8528481713008FEFD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25BBBB8928481715008FEFD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25BBBB8A28481715008FEFD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		25BBBB3A2847C5AF008FEFD6 /* Debug */ = {
@@ -339,6 +659,7 @@
 		};
 		25BBBB3D2847C5AF008FEFD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E89FED8D430C09971F8AEDB /* Pods-SwiftyRMLib.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -367,6 +688,7 @@
 		};
 		25BBBB3E2847C5AF008FEFD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7A3B85380494CBC771328A1 /* Pods-SwiftyRMLib.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -396,6 +718,7 @@
 		25BBBB402847C5AF008FEFD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JL4H4P46FP;
@@ -412,6 +735,7 @@
 		25BBBB412847C5AF008FEFD6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JL4H4P46FP;
@@ -422,6 +746,140 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		25BBBBA328481715008FEFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C183294AC063335F59D114FC /* Pods-SwiftyRMLibExamples.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JL4H4P46FP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftyRMLibExamples/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobdev.SwiftyRMLibExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25BBBBA428481715008FEFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8DB854BE137AB15E8AAC6C2 /* Pods-SwiftyRMLibExamples.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JL4H4P46FP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftyRMLibExamples/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobdev.SwiftyRMLibExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		25BBBBA528481715008FEFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JL4H4P46FP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobdev.SwiftyRMLibExamplesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyRMLibExamples.app/SwiftyRMLibExamples";
+			};
+			name = Debug;
+		};
+		25BBBBA628481715008FEFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JL4H4P46FP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobdev.SwiftyRMLibExamplesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyRMLibExamples.app/SwiftyRMLibExamples";
+			};
+			name = Release;
+		};
+		25BBBBA728481715008FEFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JL4H4P46FP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobdev.SwiftyRMLibExamplesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftyRMLibExamples;
+			};
+			name = Debug;
+		};
+		25BBBBA828481715008FEFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JL4H4P46FP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobdev.SwiftyRMLibExamplesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftyRMLibExamples;
 			};
 			name = Release;
 		};
@@ -451,6 +909,33 @@
 			buildConfigurations = (
 				25BBBB402847C5AF008FEFD6 /* Debug */,
 				25BBBB412847C5AF008FEFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25BBBBA928481715008FEFD6 /* Build configuration list for PBXNativeTarget "SwiftyRMLibExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BBBBA328481715008FEFD6 /* Debug */,
+				25BBBBA428481715008FEFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25BBBBAA28481715008FEFD6 /* Build configuration list for PBXNativeTarget "SwiftyRMLibExamplesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BBBBA528481715008FEFD6 /* Debug */,
+				25BBBBA628481715008FEFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25BBBBAB28481715008FEFD6 /* Build configuration list for PBXNativeTarget "SwiftyRMLibExamplesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BBBBA728481715008FEFD6 /* Debug */,
+				25BBBBA828481715008FEFD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

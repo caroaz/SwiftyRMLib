@@ -1,36 +1,66 @@
-//
-//  SwiftyRMLibTests.swift
-//  SwiftyRMLibTests
-//
-//  Created by Mobdev on 01-06-22.
-//
 
 import XCTest
 @testable import SwiftyRMLib
+import Alamofire
 
 class SwiftyRMLibTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
+//    var sut : SwiftyRMLibCall!
+//
+//
+//    override func setUp() {
+//        //        Mimic.start()
+//
+//        sut = SwiftyRMLibCall()
+//        super.setUp()
+//    }
+//    override func tearDown() {
+//        //        Mimic.stopAllMimics()
+//        sut = nil
+//
+//        super.tearDown()
+//    }
+//
+//    func testSuccessFetchDataDataAlamofire(){
+//        Character
+//        let expectation = expectation(description: "TestSuccess")
+//
+//        sut.request(url: "asd") {result in
+//            //            print(result)
+//            switch  result {
+//            case .success(let charactersList):
+//                XCTAssertNotNil(charactersList)
+//            case .failure:
+//                XCTFail("asd")
+//
+//            }
+//            expectation.fulfill()
+//        }
+//        wait(for: [expectation], timeout: 2)
+//    }
+//
+//    func testAlamofireFail(){
+//        network.shouldsucceed = false
+//
+//        let expectation = expectation(description: "TestSuccess")
+//
+//        sut.fetchData { result in
+//            print("\(result)xxxxxxxxxxxx")
+//            switch result {
+//            case .success:
+//                XCTFail("asd")
+//            case .failure(let error):
+//                XCTAssertNotNil(error)
+//            }
+//
+//            expectation.fulfill()
+//        }
+//
+//        wait(for: [expectation], timeout: 2)
+//    }
 }
+
+
+    
+
+

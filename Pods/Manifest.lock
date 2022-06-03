@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.6.1)
+  - SwiftyRMLib (0.0.1):
+    - Alamofire
+
+DEPENDENCIES:
+  - Alamofire
+  - SwiftyRMLib (from `.`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  SwiftyRMLib:
+    :path: "."
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  SwiftyRMLib: c3498d797dbad611c22a1dfe29c1f3bef24f7a23
+
+PODFILE CHECKSUM: e00b7e6a1848fa4f29b9c4b676aeeb07bc69d734
+
+COCOAPODS: 1.11.3
